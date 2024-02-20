@@ -15,28 +15,32 @@ const Navbar = () => {
             <ul className={styles.navMenu}>
               <li className={styles.navItem}>
                 <a className={styles.navButton} href="">
-                <AiOutlineHome size={30} />
-                <span>Home</span>
-              </a>
+                  <AiOutlineHome size={30} />
+                  <span>Home</span>
+                </a>
               </li>
               <li className={styles.navItem}>
                 <a className={styles.navButton} href="">
-                <IoStatsChartOutline />
-                <span>Stats</span>
-              </a>
+                  <IoStatsChartOutline />
+                  <span>Stats</span>
+                </a>
               </li>
               <li className={styles.navItem}>
                 <a className={styles.navButton} href="#FAQ">
-                <FaQuestionCircle />
-                <span>FAQ</span>
-              </a>
+                  <FaQuestionCircle />
+                  <span>FAQ</span>
+                </a>
               </li>
               <li className={styles.navItem}>
                 <a className={styles.navButton} href="#ContactUs">
-                <FiPhoneCall />
-                <span>Contact us</span>
-              </a>
+                  <FiPhoneCall />
+                  <span>Contact us</span>
+                </a>
               </li>
+              <li>
+                <Link href="/tutor-list" classname={styles.description}>Tutors List</Link>
+              </li>
+
               <ul className={styles.navMenu}>
                 <li className={styles.navItem}>
                   <button className={styles.loginButton}>Join now</button>
