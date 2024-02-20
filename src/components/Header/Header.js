@@ -1,12 +1,11 @@
 import Link from "next/link";
 import styles from "@/components/Header/Header.module.css"
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
     <header>
-        <div className={styles.test}>
-            <p>This is header</p>
-        </div>
+        <Navbar />
     </header>
     
   );

@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import styles from "@/app/layout.module.css"
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
@@ -12,8 +13,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={styles.scrollSetter}>
+      <body className={inter.className }>
         <Header />
         {children}
         <Footer />
